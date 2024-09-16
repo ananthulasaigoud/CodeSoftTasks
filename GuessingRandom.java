@@ -6,7 +6,7 @@ public class GuessingRandom{
         Scanner Input_Scanner = new Scanner(System.in);
         boolean Guessing_State=true;
        
-        while (Guessing_State) {
+        while (Guessing_State) {  //This is the while condition to check the Guessing state
             int min=1,max=100;
             int randomnumber = random.nextInt(max-min+1)+min;
             int NumberOfAttempts = 3;
